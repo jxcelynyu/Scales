@@ -1,34 +1,63 @@
+    fill(20,100,50);
+for(int c=20; c <= 310; c += 30)
+  {
+   for(int d=0; d <= 310; d += 20)
+   {
+    ellipse(c,d,20,20);   
+   }}
+     fill(20,100,0);
+for(int a=10; a <= 310; a += 30)
+  {
+   for(int b=0; b <= 310; b += 20)
+   {
+    ellipse(a,b,20,20);   
+   }}
+   fill(74,165,100);
+for(int x=0; x <= 310; x +=30)
+  {
+    for(int y=0; y <= 310; y+=20)
+    {
+     ellipse(x,y,20,20);
+  }}
   
+  
+  
+   fill(74,165,100);
+for(int x=0; x <= 310; x +=30)
+  {
+    for(int y=0; y <= 310; y+=20)
+    {
+     ellipse(x,y,20,35);
+  }}}
+  
+  
+  
+  
+    
 void setup() {
+  background(0,0,160);
   size(300, 300);  //feel free to change the size
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-     fill(100,100,0);
-for(int a=0; a <= 310; a += 20)
+    fill(20,100,50);
+for(int c=20; c <= 310; c += 30)
+  {
+   for(int d=0; d <= 310; d += 20)
+   {
+    ellipse(c,d,20,35);   
+   }}
+     fill(20,100,0);
+for(int a=10; a <= 310; a += 30)
   {
    for(int b=0; b <= 310; b += 20)
    {
-    beginShape();
-    vertex(10,0);
-    vertex(20,10);
-    vertex(10,20);
-    vertex(0,10);
-    endShape(CLOSE);
+    ellipse(a,b,20,35);   
    }}
    fill(74,165,100);
-for(int x=0; x <= 310; x +=20)
+for(int x=0; x <= 310; x +=30)
   {
     for(int y=0; y <= 310; y+=20)
     {
-     translate(-50,-50);
-     ellipse(x,y,15,20);
-  }}
-
-
-  //your code here
-}
-void scale() {
- 
-  //your code here
-}
+     ellipse(x,y,20,35);
+    }}}
